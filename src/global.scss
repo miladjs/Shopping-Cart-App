@@ -1,0 +1,14 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+
+body {
+  @apply text-black;
+  font-family: "Open Sans", sans-serif;
+}
+
+.mainLayout {
+  @apply min-h-screen grid md:grid-rows-[80px_1fr_auto] grid-rows-[auto_1fr_auto] container md:p-8 p-4;
+}
